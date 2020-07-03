@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/quicksand/Quicksand-Bold.eot');
+    src: local('../fonts/quicksand/Quicksand Bold'), local('Quicksand-Bold'),
+        url('../fonts/quicksand/Quicksand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quicksand/Quicksand-Bold.woff2') format('woff2'),
+        url('../fonts/quicksand/Quicksand-Bold.woff') format('woff'),
+        url('../fonts/quicksand/Quicksand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/quicksand/Quicksand-Regular.eot');
+    src: local('../fonts/quicksand/Quicksand Regular'), local('Quicksand-Regular'),
+        url('../fonts/quicksand/Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/quicksand/Quicksand-Regular.woff2') format('woff2'),
+        url('../fonts/quicksand/Quicksand-Regular.woff') format('woff'),
+        url('../fonts/quicksand/Quicksand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Light.eot');
+    src: local('../fonts/poppins/Poppins Light'), local('Poppins-Light'),
+        url('../fonts/poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/poppins/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Light.woff') format('woff'),
+        url('../fonts/poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Bold.eot');
+    src: local('../fonts/poppins/Poppins Bold'), local('Poppins-Bold'),
+        url('../fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Bold.woff') format('woff'),
+        url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+html{
+    overflow-x: hidden;
+}
+.titulo{
+    font-family: 'Quicksand' !important;
+    font-weight: bold !important;
+    
+}
+.parrafo{
+    font-family: 'Poppins' !important;
+}
+.celeste{
+    color: #828BC2;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 35px;
+}
+.naranja{
+    color: #F08F28 !important;
+    
+}
+.violeta{
+    color: #5F458A !important;
+}
+.btn-group a{
+    font-family: 'Quicksand' !important;
+    font-weight: bold !important;
+}
+.superior:first-child{
+    padding: 50px 0px 0px 110px;
+    z-index: 30;
+}
+.hashtag{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 30px;
+    color: #F08F28;
+}
+.boton-superior{
+    color: #fff;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 5px 25px;
+    background-color: #828BC2;
+    border: none;
+}
+.boton-superior:hover{
+    background-color: #6e76ad;
+}
+.superior{
+    position: relative;
+}
+.bg-sup{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    z-index: 10;
+}
+.main-text-wrapper::after{
+    content: '';
+    position: absolute;
+    background-image: url(../images/elipse.png);
+    width: 69px;
+    height: 69px;
+    bottom: -22px;
+    right: 43%;
+}
+.text{
+    padding: 55px 40px 55px 45px;
+}
+
+.btn-naranja{
+    background-color: #FC7422;
+    border: 2px solid #FC7422 !important;
+    border: none;
+    color: #fff !important;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.btn-naranja:hover{
+    background-color: #e2691e;
+    border: 2px solid #e2691e !important;
+}
+
+.btn-naranja-stroke{
+    background-color: transparent;
+    border: 2px solid #FC7422;
+    color: #FC7422;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 50px;
+    padding: 8px 30px;
+}
+
+.btn-naranja-stroke:hover{
+    background-color: #FC7422;
+    color: #fff;
+    border: 2px solid #FC7422;
+}
+.primera-seccion, .segunda-seccion{
+    position: relative;
+}
+
+.segunda-seccion{
+    padding: 200px 0 70px 0;
+}
+
+.shape{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    right: 0px;
+    top: -856px;
+    opacity: 0.7;
+}
+
+.banner{
+    position: relative;
+    background-image: url(../images/bg-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-banner > img{
+    position: absolute;
+    width: 100%;
+}
+
+.banner .inner-wrapper{
+    padding: 120px 0 100px 100px;
+}
+
+.banner img{
+    width: 19%;
+    position: absolute;
+}
+
+.banner .inner-wrapper .img-izquierda {
+    position: absolute;
+    right: 33%;
+    top: 9px;
+    z-index: 1;
+}
+.banner .inner-wrapper .img-derecha {
+    position: absolute;
+    right: 12%;
+    top: -24px;
+    z-index: 1;
+}
+.parrafo-banner{
+    font-family: 'Quicksand';
+    font-size: 30px;
+    padding-right: 340px;
+}
+.bg-carrusel{
+    position: relative;
+    background-image: url(../images/bg-carrusel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-carrusel::after{
+    content: '';
+    background-image: url(../images/elipse-celeste.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 122px;
+    width: 122px;
+    left: -30px;
+}
+.banner2.inner-wrapper{
+    padding: 100px 0;
+}
+
+.banner2{
+    background-image: url(../images/bg-banner-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+::placeholder{
+    color: #5F458A;
+    font-family: 'Poppins';
+}
+
+.form-validation{
+    position: relative;
+}
+
+.form-validation::after{
+    content: '';
+    position: absolute;
+    background-image: url(../images/form/shape-der.svg);
+    width: 250px;
+    height: 300px;
+    bottom: 91px;
+    right: -145px;
+    z-index: -85 !important;
+}
+
+.form-validation::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/form/shape-izq.svg);
+    width: 312px;
+    height: 420px;
+    bottom: 237px;
+    left: -103px;
+    z-index: 18 !important;
+}
+
+.footer{
+    background-image: url(../images/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
