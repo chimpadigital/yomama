@@ -268,3 +268,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
