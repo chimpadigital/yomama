@@ -179,6 +179,26 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+  .text {
+    padding: 55px 20px 55px 20px;
+}
+.banner .inner-wrapper .img-izquierda {
+  position: absolute;
+  left: 12%;
+  top: 92%;
+  z-index: 1;
+  width: 40%;
+}
+.banner .inner-wrapper .img-derecha {
+  position: absolute;
+  right: 5%;
+  top: 86%;
+  z-index: 1;
+  width: 40%;
+}
+.our-work-progress {
+  padding: 130px 0 80px;
+}
   .form-validation::after {
     content: '';
     position: absolute;
@@ -214,7 +234,7 @@
   .apps-overview .inner-wrapper {padding: 100px 0 85px;}
   .theme-counter .bg-image {padding-top: 0;}
   .theme-counter .bg-image .counter-wrapper p {font-size: 20px;}
-  .our-work-progress .section-title-wrapper {width: 100%;padding: 0 15px;}
+  .our-work-progress .section-title-wrapper {width: 100%;padding: 25px 20px;}
   .our-work-progress .main-wrapper .progress-slider-wrapper {width: 100%;padding: 0 15px;}
   .our-work-progress .section-title-wrapper .theme-title {max-width: none;padding: 0 0 40px;}
   .contact-us-one .theme-title p br,.contact-section-dark .theme-title p br {display: none;}
