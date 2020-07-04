@@ -15,7 +15,7 @@ $wp = $_POST['wp'];
 $msj = $_POST['consulta'];
 
 
-$email_subject = "Consulta Ralseff Marzo 2020";
+$email_subject = "Consulta Curso Preparto Online";
 
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['name']) ||
@@ -91,7 +91,7 @@ if (!$mail->send()) {
 
 if($mail_enviado)
 {
-echo "<script>location.href='../graciascurso';</script>";
+echo "<script>location.href='gracias.html';</script>";
 
 }
 else
