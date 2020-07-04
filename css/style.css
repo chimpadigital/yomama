@@ -1096,16 +1096,17 @@ body .theme-button:hover span {opacity: 1;}
   display: block;
   margin-bottom: 10px;
 }
-.contact-us-one form input {
+.contact-us-one form input, .contact-us-one form textarea  {
   width: 100%;
   height: 48px;
   border: 1px solid #828BC2;
   background: #f9f9f9;
   border-radius: 8px;
-  padding: 0 15px;
+  padding: 10px 15px;
   font-size: 14px;
   margin-bottom: 15px;
 }
+textarea{height: 160px!important;}
 .contact-us-one form input:focus {box-shadow: 0px 3px 16px 0px rgba(63, 53, 53, 0.07);}
 .contact-us-one form button {
   font-family: 'Quicksand';
