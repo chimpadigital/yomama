@@ -179,6 +179,18 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+  .boton-superior {
+    font-size: 18px;
+}
+.btn-violeta {
+  font-size: 18px;
+}
+  .btn-naranja-stroke {
+    font-size: 18px;
+}
+  .btn-naranja {
+    font-size: 18px;
+}
   .superior:first-child {
     padding: 24px 0px 0px 17px;
 }
@@ -234,7 +246,7 @@ h5 {
 }
   #theme-banner h1 {font-size: 45px;line-height: 55px;}
   .theme-banner-one .main-text-wrapper p {font-size: 20px;line-height: 32px;padding: 30px 0 40px;}
-  .theme-banner-one .main-text-wrapper,.theme-banner-two .main-text-wrapper {padding: 170px 0 40px;}
+  .theme-banner-one .main-text-wrapper,.theme-banner-two .main-text-wrapper {padding: 170px 20px 40px;}
   .stock-market-price {padding-bottom: 0;}
   .theme-title h2 br {display: none;}
   .our-features-one .single-feature {padding-bottom: 40px;}
