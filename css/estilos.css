@@ -100,7 +100,7 @@ header{
     color: #fff;
     font-family: 'Quicksand';
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 50px;
     padding: 5px 25px;
     background-color: #828BC2;
@@ -125,8 +125,8 @@ header{
     background-image: url(../images/elipse.png);
     width: 69px;
     height: 69px;
-    bottom: -22px;
-    right: 43%;
+    bottom: -59px;
+    right: -15%;
 }
 .text{
     padding: 55px 40px 55px 45px;
@@ -190,12 +190,12 @@ header{
 }
 
 .segunda-seccion{
-    padding: 120px 0 70px 0;
+    padding: 50px 0 29px 0;
 }
 
 .shape{
     position: absolute;
-    width: 550px;
+    width: 33%;
     height: auto;
     right: 0px;
     top: -856px;
@@ -215,7 +215,7 @@ header{
 }
 
 .banner .inner-wrapper{
-    padding: 120px 0 100px 100px;
+    padding: 63px 0 63px 100px;
 }
 
 .banner img{
@@ -238,7 +238,7 @@ header{
 .parrafo-banner{
     font-family: 'Quicksand';
     font-size: 30px;
-    padding-right: 276px;
+    padding-right: 185px;
 }
 .bg-carrusel{
     position: relative;
@@ -311,7 +311,7 @@ header{
 }
 
 h3.cta-violeta{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .modal-header {
@@ -344,15 +344,15 @@ h3.cta-violeta{
 .owl-theme .owl-nav {
     margin: 0;
     position: absolute;
-    left: -50%;
+    left: -60%;
     top: 50%;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #828BC2;
 }
 .owl-theme .owl-dots .owl-dot span {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     margin: 5px 7px;
     background: #E1E3F2;
     display: block;
