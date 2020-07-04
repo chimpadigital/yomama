@@ -367,3 +367,5 @@ h3.cta-violeta{
     border-radius: 30px;
 }
 .member2{transform: translate(0px, -27px);}
+
+textarea{height: 160px;}
