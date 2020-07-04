@@ -181,8 +181,9 @@
         if(pSlider.length) {
             pSlider.owlCarousel({
               loop:true,
-              nav:false,
-              dots:false,
+              nav:true,
+              dots:true,
+              navText: ["<img src='../images/anterior.svg'>","<img src='../images/siguiente.svg'>"],
               autoplay:true,
               margin:30,
               autoplayTimeout:4000,
@@ -194,7 +195,7 @@
                         items:1
                     },
                     576:{
-                        items:2
+                        items:3
                     },
                     1550:{
                         items:3

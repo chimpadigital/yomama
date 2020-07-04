@@ -9,6 +9,11 @@
 */
 
 @media (min-width: 992px) {
+
+.modal-dialog {
+    max-width: 70%;
+    margin: 30px auto;
+}
   .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -17,6 +22,11 @@
 @media (min-width: 1200px) and (max-width: 1600px) {
   .about-cryto.style-two .single-box:first-child {left:0;}
   .about-cryto.style-two .single-box {width: 252px; padding: 60px 25px;}
+}
+@media (max-width: 1366px) {
+  .our-work-progress .main-wrapper .progress-slider-wrapper {
+    width: 60%;
+}
 }
 @media (min-width: 1200px) and (max-width: 1320px) {
   .theme-main-menu.full-width #mega-menu-holder {padding-left: 50px;}

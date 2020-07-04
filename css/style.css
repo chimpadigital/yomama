@@ -143,21 +143,22 @@
   font-family: 'brandon_grotesquemedium';
   font-family: 'brandon_grotesque_regularRg';
   font-family: 'loveloline_light';    */
-  font-family: 'proxima_novaregular';
-  font-weight: normal;
-  color:rgba(48,61,83,0.7);
+  font-family: 'Poppins';
+  font-weight: 400;
+  color:#5F458A;
   font-size: 18px;
   position: relative;
+  width: 101vw;
  }
 .main-page-wrapper {overflow-x:hidden;}
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
- h1,h2,h3,h4,h5,h6 {color:#283249;}
- h1 {font-family: 'brandon_grotesquebold'; font-size: 70px; line-height: 75px;}
- h2 {font-family: 'brandon_grotesquemedium'; font-size: 50px;}
- h3 {font-size: 28px; font-weight: normal; font-family: 'proxima_novaregular';}
- h4 {font-size: 24px; font-family: 'brandon_grotesquemedium';}
+ h1,h2,h3,h4,h5,h6 {color:#283249; font-family: 'Quicksand';}
+ h1 {font-family: 'Quicksand'; font-size: 70px; line-height: 75px;}
+ h2 {font-family: 'Quicksand'; font-size: 50px;}
+ h3 {font-size: 30px; font-weight: normal; font-family: 'Quicksand';}
+ h4 {font-size: 24px; font-family: 'Quicksand';}
  h5 {font-size: 22px; font-weight: 500;}
- h6 {font-size: 20px; font-family: 'brandon_grotesque_regularRg'; }
+ h6 {font-size: 20px; font-family: 'Quicksand'; }
  p {line-height: 32px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
@@ -342,9 +343,14 @@ body .theme-button:hover span {opacity: 1;}
 }
 .theme-main-menu.fixed.full-width {padding: 10px 80px;}
 /*----------------------- Theme Banner One -------------------------*/
+
+.theme-banner-one {height: 90vh;
+  display: flex;
+  align-items: center;
+  position: relative;}
 .theme-banner-one .main-text-wrapper {padding: 195px 0 73px 100px;}
 .theme-banner-one .main-text-wrapper p {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 37px;
   padding: 35px 0 50px;
 }
@@ -414,10 +420,20 @@ body .theme-button:hover span {opacity: 1;}
 .theme-banner-one .main-text-wrapper .play-buttton:hover {color: #fff; }
 .theme-banner-one .illustration {
   position: absolute;
-  top: 5%;
+  top: 50%;
   right: 0;
   z-index: 10;
   width: 45%;
+  transform: translateY(-50%);
+}
+.theme-banner-one .illustration::after {
+  content: '';
+  position: absolute;
+  background-image: url(../images/elipse.png);
+  width: 69px;
+  height: 69px;
+  bottom: -22px;
+  right: 43%;
 }
 .theme-banner-one .icon-shape-one {
   position: absolute;
@@ -969,7 +985,7 @@ body .theme-button:hover span {opacity: 1;}
 }
 .our-work-progress .section-title-wrapper {
   float: left;
-  width: 45%;
+  width: 40%;
   padding-right: 75px;
   padding-left: 15px;
   padding-top: 140px;
