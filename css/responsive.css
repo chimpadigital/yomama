@@ -26,7 +26,10 @@
 @media (max-width: 1366px) {
   .our-work-progress .main-wrapper .progress-slider-wrapper {
     width: 60%;
-}
+  }
+  .owl-theme .owl-nav {
+    left: -52%;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1320px) {
   .theme-main-menu.full-width #mega-menu-holder {padding-left: 50px;}
@@ -176,6 +179,25 @@
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
+  .form-validation::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/form/shape-der.svg);
+    width: 250px;
+    height: 300px;
+    bottom: -41px;
+    right: 42px;
+    z-index: -85 !important;
+}
+.owl-theme .owl-nav {
+  margin: 0;
+  position: absolute;
+  left: 15%;
+  top: -6%;
+}
+.banner .inner-wrapper {
+  padding: 63px 0 63px 0px;
+}
   #theme-banner h1 {font-size: 45px;line-height: 55px;}
   .theme-banner-one .main-text-wrapper p {font-size: 20px;line-height: 32px;padding: 30px 0 40px;}
   .theme-banner-one .main-text-wrapper,.theme-banner-two .main-text-wrapper {padding: 170px 0 40px;}
