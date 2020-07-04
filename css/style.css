@@ -958,14 +958,14 @@ body .theme-button:hover span {opacity: 1;}
   font-weight: bold;
   line-height: 30px;
   color: #F08F28;
-  padding: 27px 0 25px;
+  padding: 27px 0 0px;
 }
 .our-work-progress .main-wrapper .progress-slider-wrapper .inner-block p {
   font-family: 'Poppins';
   font-weight: 100;
   line-height: 30px;
   color: #5F458A;
-  padding: 27px 0 25px;
+  padding: 20px 0 15px;
 }
 .our-work-progress .main-wrapper .progress-slider-wrapper .inner-block .num {
   font-family: 'Quicksand';
