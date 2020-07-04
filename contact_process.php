@@ -63,10 +63,10 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = 'ralseffenvios@gmail.com';
 $mail->Password = 'Ralseffenvio';
-$mail->setFrom('ralseffenvios@gmail.com', 'ralseff');
+$mail->setFrom('ralseffenvios@gmail.com', '#yomama');
 
-$mail->addReplyTo('consultas@ralseff.com','ralseff');
-$mail->addAddress('sdesigncba@gmail.com','ralseff');
+$mail->addReplyTo('consultas@ralseff.com','#yomama');
+$mail->addAddress('sdesigncba@gmail.com','#yomama');
 // $mail->addCc('ralseff@chimpancedigital.com.ar','chimpance');
 $mail->isHTML(true);
 $mail->Subject = $email_subject;
