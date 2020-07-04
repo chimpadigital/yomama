@@ -260,7 +260,7 @@ html{
     height: 420px;
     bottom: 237px;
     left: -103px;
-    z-index: 18 !important;
+    z-index: 0 !important;
 }
 
 .footer{
