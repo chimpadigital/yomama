@@ -183,7 +183,7 @@
               loop:true,
               nav:true,
               dots:true,
-              navText: ["<img src='/../images/anterior.svg'>","<img src='/../images/siguiente.svg'>"],
+              navText: ["<img src='images/anterior.svg'>","<img src='images/siguiente.svg'>"],
               autoplay:true,
               margin:30,
               autoplayTimeout:4000,
