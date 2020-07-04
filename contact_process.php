@@ -35,7 +35,7 @@ $email_message .= "Mensaje: " . $_POST['consulta'] . "\n";
 $email_message2 = "<h1>Detalles del formulario :</h1><br>";
 $email_message2 .= "<p>Nombre: " . $_POST['name'] ."</p>";
 $email_message2 .= "<p>Apellido: " . $_POST['last'] ."</p>";
-$email_message2 .= "<p>Whatsapp: " . $_POST['wp'] . $_POST['wp'] ."</p>";
+$email_message2 .= "<p>Whatsapp: " . $_POST['wp'] ."</p>";
 $email_message2 .= "<p>Mensaje: " . $_POST['consulta'] ."</p>";
 
 //inicio script grabar datos en csv
