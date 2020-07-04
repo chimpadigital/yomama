@@ -344,7 +344,7 @@ h3.cta-violeta{
 .owl-theme .owl-nav {
     margin: 0;
     position: absolute;
-    left: -60%;
+    left: -50%;
     top: 50%;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {

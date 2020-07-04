@@ -198,6 +198,12 @@
 .banner .inner-wrapper {
   padding: 63px 0 63px 0px;
 }
+.parrafo-banner {
+  padding-right: 40px;
+}
+.main-text-wrapper::after {
+  right: 2%;
+}
   #theme-banner h1 {font-size: 45px;line-height: 55px;}
   .theme-banner-one .main-text-wrapper p {font-size: 20px;line-height: 32px;padding: 30px 0 40px;}
   .theme-banner-one .main-text-wrapper,.theme-banner-two .main-text-wrapper {padding: 170px 0 40px;}
