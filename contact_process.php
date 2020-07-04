@@ -1,6 +1,6 @@
 ﻿<?php
 
-require 'PHPMailerAutoload.php';
+require 'php-mailer/PHPMailerAutoload.php';
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
 //$email_to = "sdesigncba@gmail.com";
