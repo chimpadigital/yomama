@@ -195,12 +195,14 @@ header{
 
 .shape{
     position: absolute;
-    width: 33%;
+    width: 27%;
     height: auto;
     right: 0px;
     top: -856px;
     opacity: 0.7;
 }
+
+.check{width: 30px;margin-right: 10px;}
 
 .banner{
     position: relative;
@@ -215,7 +217,7 @@ header{
 }
 
 .banner .inner-wrapper{
-    padding: 63px 0 63px 100px;
+    padding: 63px 0 100px 100px;
 }
 
 .banner img{
