@@ -58,7 +58,7 @@ header{
     padding-bottom: 18px;
     position: fixed;
     width: 100%;
-    background: rgba(255, 255, 255, 0.51);
+    background: rgb(255 255 255 / 72%);
     z-index: 100;
 }
 .titulo{
