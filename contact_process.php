@@ -71,7 +71,7 @@ $mail->Password = 'Ralseffenvio';
 $mail->setFrom('info@yomamaonline.com', '#yomama');
 
 $mail->addReplyTo('aecrecen@gmail.com','#yomama');
-$mail->addAddress('sdesigncba@gmail.com','#yomama');
+$mail->addAddress('aecrecen@gmail.com','#yomama');
 // $mail->addCc('ralseff@chimpancedigital.com.ar','chimpance');
 $mail->isHTML(true);
 $mail->Subject = $email_subject;
