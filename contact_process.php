@@ -7,7 +7,7 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
 //$email_to = "carlosdanielgutierrez@gmail.com";
 
 $fpp = date('d-m-Y', strtotime($_POST['fpp']));
-echo $new_date;
+echo $fpp;
 
 // $email_to ="info@ralseff.com";
 
@@ -40,7 +40,7 @@ $email_message2 = "<h1>Detalles del formulario :</h1><br>";
 $email_message2 .= "<p>Nombre: " . $_POST['name'] ."</p>";
 $email_message2 .= "<p>Apellido: " . $_POST['last'] ."</p>";
 $email_message2 .= "<p>Whatsapp: " . $_POST['wp'] ."</p>";
-$email_message2 .= "<p>FPP: " . $new_date ."</p>";
+$email_message2 .= "<p>FPP: " . $fpp ."</p>";
 $email_message2 .= "<p>Mensaje: " . $_POST['consulta'] ."</p>";
 
 //inicio script grabar datos en csv
