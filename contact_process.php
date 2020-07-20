@@ -6,15 +6,17 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
 //$email_to = "sdesigncba@gmail.com";
 //$email_to = "carlosdanielgutierrez@gmail.com";
 
+$fpp = date('d-m-Y', strtotime($_POST['fpp']));
+echo $new_date;
 
 // $email_to ="info@ralseff.com";
 
 $name = $_POST['name'];
 $area = $_POST['last'];
 $wp = $_POST['wp'];
-$fpp = $_POST['fpp'];
+
 $msj = $_POST['consulta'];
-$fpp=date("d-m-Y");
+
 
 $email_subject = "Consulta Curso Preparto Online";
 
@@ -38,7 +40,7 @@ $email_message2 = "<h1>Detalles del formulario :</h1><br>";
 $email_message2 .= "<p>Nombre: " . $_POST['name'] ."</p>";
 $email_message2 .= "<p>Apellido: " . $_POST['last'] ."</p>";
 $email_message2 .= "<p>Whatsapp: " . $_POST['wp'] ."</p>";
-$email_message2 .= "<p>FPP: " . $_POST['fpp'] ."</p>";
+$email_message2 .= "<p>FPP: " . $new_date ."</p>";
 $email_message2 .= "<p>Mensaje: " . $_POST['consulta'] ."</p>";
 
 //inicio script grabar datos en csv
