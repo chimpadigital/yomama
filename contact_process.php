@@ -14,7 +14,7 @@ $area = $_POST['last'];
 $wp = $_POST['wp'];
 $fpp = $_POST['fpp'];
 $msj = $_POST['consulta'];
-
+$fpp=date("d-m-Y");
 
 $email_subject = "Consulta Curso Preparto Online";
 
