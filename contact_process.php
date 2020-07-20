@@ -12,6 +12,7 @@ date_default_timezone_set('America/Argentina/Buenos_Aires');
 $name = $_POST['name'];
 $area = $_POST['last'];
 $wp = $_POST['wp'];
+$fpp = $_POST['fpp'];
 $msj = $_POST['consulta'];
 
 
@@ -21,6 +22,7 @@ $email_subject = "Consulta Curso Preparto Online";
 if(!isset($_POST['name']) ||
 !isset($_POST['last']) ||
 !isset($_POST['wp']) ||
+!isset($_POST['fpp']) ||
 !isset($_POST['consulta'])) {
 
 echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />";
@@ -36,6 +38,7 @@ $email_message2 = "<h1>Detalles del formulario :</h1><br>";
 $email_message2 .= "<p>Nombre: " . $_POST['name'] ."</p>";
 $email_message2 .= "<p>Apellido: " . $_POST['last'] ."</p>";
 $email_message2 .= "<p>Whatsapp: " . $_POST['wp'] ."</p>";
+$email_message2 .= "<p>FPP: " . $_POST['fpp'] ."</p>";
 $email_message2 .= "<p>Mensaje: " . $_POST['consulta'] ."</p>";
 
 //inicio script grabar datos en csv
@@ -66,7 +69,7 @@ $mail->Password = 'Ralseffenvio';
 $mail->setFrom('info@yomamaonline.com', '#yomama');
 
 $mail->addReplyTo('aecrecen@gmail.com','#yomama');
-$mail->addAddress('aecrecen@gmail.com','#yomama');
+$mail->addAddress('sdesigncba@gmail.com','#yomama');
 // $mail->addCc('ralseff@chimpancedigital.com.ar','chimpance');
 $mail->isHTML(true);
 $mail->Subject = $email_subject;
